@@ -1,0 +1,86 @@
+.img{
+  width: 100%;
+  height:182px;
+  transition: all 350ms linear;
+}
+
+#img-tierra{ 
+    background-image: url("../img/Tierra_planeta.jpg");    
+    background-size: 100%;
+}
+
+#tierra:hover #img-tierra{
+    background-image: url("../img/La\ tierra.jpg"); 
+}
+
+#img-venus{
+    background-image: url("../img/venus.jpg");    
+    background-size: 100%;
+}
+
+#venus:hover #img-venus{
+    background-image: url("../img/venus\ 2.jpg"); 
+}
+
+#img-mercurio{
+    background-image: url("../img/mercurio.jpg");    
+    background-size: 100%;
+}
+
+#mercurio:hover #img-mercurio{
+    background-image: url("../img/mercurio\ 2.jpg"); 
+}
+
+#img-marte{
+    background-image: url("../img/marte.jpg");    
+    background-size: 100%;
+}
+
+#marte:hover #img-marte{
+    background-image: url("../img/marte\ 2.png"); 
+}
+
+#img-jupiter{
+    background-image: url("../img/jupiter.png");    
+    background-size: 100%;
+}
+
+#jupiter:hover #img-jupiter{
+    background-image: url("../img/jupiter\ 2.jpg");
+}
+
+#img-saturno{
+    background-image: url("../img/saturno.jpg");    
+    background-size: 100%;
+}
+
+#saturno:hover #img-saturno{
+    background-image: url("../img/saturno\ 2.jpg");
+}
+
+#img-urano{
+    background-image: url("../img/urano.jpg");    
+    background-size: 100%;
+}
+
+#urano:hover #img-urano{
+    background-image: url("../img/urano\ 2.jpg");
+}
+
+#img-neptuno{
+    background-image: url("../img/neptuno.jpeg");    
+    background-size: 100%;
+}
+
+#neptuno:hover #img-neptuno{
+    background-image: url("../img/neptuno\ 2.jpg");
+}
+
+#img-pluton{
+    background-image: url("../img/pluton.jpg");    
+    background-size: 100%;
+}
+
+#pluton:hover #img-pluton{
+    background-image: url("../img/pluton\ 2.png");
+}

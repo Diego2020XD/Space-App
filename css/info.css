@@ -1,0 +1,152 @@
+/*Diseño de la imagen de los planetas */
+.central-info{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/fondo\ de\ estrellas.jpg");
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img-planetas{
+ width: 35%;
+ height: 70%;
+ overflow: hidden;
+ position: absolute;
+ top: 100px;
+ left:150px;
+ float: left; 
+}
+
+.img-planetas img{
+  width: 80%;
+  margin-top:10px;
+  margin-left:45px;
+}
+
+#img_planetas{
+ width: 100%;
+ margin-top: 50px;
+}
+
+/*---------------Diseño del slider-----------*/
+
+.slider{
+ width:40%;
+ height:10%;
+ position: absolute;
+ top: 100px;
+ left:660px;
+ overflow-x: scroll;
+ display: flex;
+}
+
+.button-planetas{
+ width: 20%;
+ height: 50%;
+ color: white;
+ font-family: 'Times New Roman', Times, serif;
+ font-size:100%;
+ margin-left:20px;
+ padding: 5px 5px;
+ float: left;
+ cursor: pointer;
+}
+
+.slider::-webkit-scrollbar{
+    border-radius:7px;
+    background-color: white;
+    height: 10px;
+}
+
+.slider::-webkit-scrollbar-thumb{
+    background-color:#252850;
+    border-radius:20px;
+}
+
+/*-------------Diseño de los datos-----------*/
+
+.datos{
+ width: 40%;
+ height: 54%;
+ position: absolute;
+ top: 200px;
+ left:660px
+}
+
+
+.datos h1{
+ font-family:'Times New Roman', Times, serif;
+ font-size:60px;
+ color: white;
+ margin-left: 10px;
+}
+
+.datos p{
+ font-family:'Times New Roman', Times, serif;
+ font-size: 17px;
+ color: white;
+ margin-left: 10px;
+ width: 80%;
+}
+
+.caracteristicas{
+ overflow: hidden;
+ margin-top: 30px;
+ font-family: 'Times New Roman', Times, serif;
+ font-size:  17px;
+ color: white;
+}
+
+.caracteristicas span {
+ width:30%;
+ margin-left: 20px;
+ margin-top: 10px;
+ float: left;
+ overflow: hidden;
+ padding: 5px 5px;
+}
+
+#tierra:hover{
+ box-shadow: 0px 5px white;
+}
+
+#venus:hover{
+box-shadow: 0px 5px white;
+}
+
+#tierra:hover{
+box-shadow: 0px 5px white;
+}
+
+#mercurio:hover{
+box-shadow: 0px 5px white;
+}
+
+#marte:hover{
+box-shadow: 0px 5px white;
+}
+
+#jupiter:hover{
+box-shadow: 0px 5px white;
+}
+
+#saturno:hover{
+box-shadow: 0px 5px white;
+}
+
+#urano:hover{
+box-shadow: 0px 5px white;
+}
+
+#neptuno:hover{
+box-shadow: 0px 5px white;
+}
+
+#pluton:hover{
+box-shadow: 0px 5px white;
+}
+                            
+    
+                        
